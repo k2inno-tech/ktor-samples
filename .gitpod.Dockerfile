@@ -22,6 +22,10 @@ RUN cd /opt && \
 
 RUN chmod -R 777 ${ANDROID_HOME}
 
+RUN apt-get -q update && \
+    apt-get install -yq chromium-browser && \
+    rm -rf /var/lib/apt/lists/*
+
 RUN apt clean -qq
 
 USER gitpod
