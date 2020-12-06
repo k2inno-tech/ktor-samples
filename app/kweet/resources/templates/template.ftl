@@ -7,8 +7,12 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <title>${title} | Kweet</title>
+    <!--
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+    -->
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
     <link rel="stylesheet" type="text/css" href="/styles/main.css">
 </head>
 <body>
